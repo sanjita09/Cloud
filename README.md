@@ -1,7 +1,7 @@
 
 # Employee Working System
 
-An Employee Management System in Django keeps track of all of the employee’s information and data. We’ve created all of the employee's and company crud (create, read, update, and delete) operations. This is a role-based module in which the admin can perform any operation on the data.
+An Employee Working System in Django keeps track of all of the employee’s information and data. We’ve created all of the employee's and company crud (create, read, update, and delete) operations. This is a role-based module in which the admin can perform any operation on the data.
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
