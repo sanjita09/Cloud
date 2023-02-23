@@ -4,9 +4,12 @@ from .models import Emp
 
 
 def emp_home(request):
-    emps=Emp.objects.all()
+    if 'q' in request.GET:
+        q=request.GET['q']
+        emps=Emp.objects.filter(name__startswith=q)
+    else:
+        emps= Emp.objects.all()
     return render(request,"emp/home.html",{'emps':emps})
-
 
 def add_emp(request):
     if request.method=="POST":
@@ -63,3 +66,5 @@ def do_update_emp(request,emp_id):
             e.working=True
         e.save()
     return redirect("/emp/home/")
+
+
